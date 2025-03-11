@@ -4,7 +4,6 @@
 Follow these steps to clone the repository, install dependencies, and run the analysis.
 
 ### **1️⃣ Clone the Repository**
-```bash
 git clone https://github.com/Swapnil2409/Financial-Fraud-Detection.git
 cd Financial-Fraud-Detection/Assignment-4
 
