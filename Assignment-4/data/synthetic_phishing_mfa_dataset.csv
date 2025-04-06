@@ -1,0 +1,501 @@
+phishing_type,mfa_type,user_error,fraud_occurred,transaction_stage,transaction_successful,user_awareness_score,industry
+SMS,Authenticator App,Clicked malicious link,True,Initiation,False,3,Healthcare
+Social Media,SMS,Shared OTP/code,True,Initiation,False,1,Government
+SMS,SMS,Reused password,True,Completion,True,5,Banking
+SMS,Authenticator App,Reused password,True,Initiation,False,3,Retail
+Email,Authenticator App,Reused password,True,Initiation,True,2,Banking
+Email,SMS,Shared OTP/code,True,Processing,True,3,Healthcare
+Email,Biometric,Shared OTP/code,True,Initiation,False,3,Retail
+SMS,Authenticator App,Reused password,True,Processing,True,2,Healthcare
+SMS,Biometric,Clicked malicious link,True,Initiation,False,4,Government
+SMS,Authenticator App,Shared OTP/code,False,Initiation,False,4,Healthcare
+Email,Authenticator App,Clicked malicious link,False,Initiation,True,1,Healthcare
+Social Media,SMS,No error,False,Initiation,False,1,Government
+SMS,Biometric,No error,False,Completion,True,4,Banking
+Email,Authenticator App,Clicked malicious link,True,Initiation,True,5,Government
+Email,SMS,Reused password,True,Initiation,True,3,Government
+Email,SMS,No error,True,Initiation,False,5,Healthcare
+SMS,SMS,Clicked malicious link,True,Initiation,True,3,Banking
+SMS,Authenticator App,Shared OTP/code,False,Completion,True,4,Retail
+SMS,Biometric,No error,True,Initiation,True,1,Government
+Email,SMS,Clicked malicious link,False,Processing,True,1,Banking
+SMS,SMS,Shared OTP/code,True,Completion,True,5,Government
+Email,SMS,Clicked malicious link,False,Initiation,True,1,Government
+Email,Biometric,No error,True,Completion,True,4,Government
+SMS,Authenticator App,No error,True,Initiation,True,5,Government
+SMS,Authenticator App,No error,True,Initiation,False,3,Healthcare
+SMS,SMS,Shared OTP/code,True,Initiation,True,1,Banking
+Email,SMS,Reused password,True,Processing,True,2,Banking
+SMS,SMS,Reused password,True,Completion,False,1,Banking
+SMS,SMS,Clicked malicious link,False,Initiation,True,3,Government
+Email,Authenticator App,Reused password,True,Processing,False,5,Healthcare
+SMS,Authenticator App,Clicked malicious link,True,Initiation,True,3,Government
+Email,Biometric,Shared OTP/code,True,Initiation,False,2,Government
+Email,Biometric,Clicked malicious link,False,Initiation,True,4,Banking
+Social Media,SMS,Clicked malicious link,True,Completion,True,1,Government
+Social Media,Authenticator App,Clicked malicious link,True,Processing,True,5,Retail
+SMS,Biometric,Shared OTP/code,True,Initiation,False,4,Government
+SMS,Authenticator App,Clicked malicious link,True,Initiation,True,3,Retail
+Email,SMS,Reused password,True,Initiation,True,5,Government
+SMS,SMS,Clicked malicious link,True,Initiation,False,4,Healthcare
+SMS,SMS,Clicked malicious link,True,Initiation,False,5,Healthcare
+Email,Biometric,Shared OTP/code,False,Completion,True,2,Banking
+SMS,Authenticator App,Reused password,True,Initiation,False,2,Government
+Email,SMS,Clicked malicious link,True,Initiation,False,1,Retail
+Social Media,Authenticator App,Shared OTP/code,True,Initiation,True,1,Retail
+Email,Authenticator App,Reused password,False,Completion,True,2,Government
+SMS,SMS,Shared OTP/code,True,Processing,True,5,Retail
+SMS,SMS,Clicked malicious link,False,Initiation,True,2,Healthcare
+SMS,Authenticator App,Clicked malicious link,True,Processing,True,1,Retail
+SMS,SMS,Reused password,True,Initiation,True,2,Banking
+Email,Authenticator App,Clicked malicious link,True,Initiation,True,2,Healthcare
+Social Media,SMS,Reused password,False,Initiation,True,5,Healthcare
+SMS,Authenticator App,Shared OTP/code,True,Initiation,True,4,Healthcare
+Social Media,SMS,No error,False,Initiation,False,1,Government
+SMS,SMS,Reused password,False,Completion,False,5,Government
+SMS,Authenticator App,No error,True,Processing,True,2,Healthcare
+Social Media,SMS,Clicked malicious link,True,Processing,False,2,Government
+Email,SMS,Reused password,True,Initiation,True,4,Retail
+Email,SMS,Shared OTP/code,True,Initiation,True,1,Government
+Email,Authenticator App,Shared OTP/code,False,Processing,True,1,Government
+SMS,Authenticator App,Shared OTP/code,False,Initiation,True,3,Healthcare
+SMS,Authenticator App,Reused password,True,Initiation,False,1,Banking
+Email,SMS,No error,True,Initiation,True,4,Banking
+SMS,SMS,Reused password,False,Processing,True,3,Banking
+SMS,SMS,Shared OTP/code,True,Initiation,True,3,Retail
+Email,SMS,Shared OTP/code,False,Initiation,True,2,Government
+SMS,SMS,Reused password,True,Processing,True,2,Banking
+Email,SMS,Clicked malicious link,True,Initiation,True,1,Healthcare
+SMS,SMS,Clicked malicious link,True,Initiation,True,3,Banking
+Email,Biometric,Clicked malicious link,True,Initiation,False,2,Banking
+Social Media,SMS,Clicked malicious link,True,Initiation,False,4,Government
+SMS,SMS,Clicked malicious link,True,Processing,True,2,Government
+Email,Authenticator App,Clicked malicious link,True,Initiation,False,2,Government
+Email,SMS,Clicked malicious link,False,Initiation,True,3,Retail
+SMS,Authenticator App,Clicked malicious link,False,Completion,True,3,Retail
+SMS,Authenticator App,No error,True,Completion,True,5,Banking
+SMS,Biometric,Shared OTP/code,True,Completion,True,4,Government
+SMS,SMS,Clicked malicious link,True,Initiation,False,3,Banking
+Email,Biometric,Shared OTP/code,True,Initiation,True,1,Healthcare
+SMS,SMS,Clicked malicious link,True,Completion,True,4,Healthcare
+Email,SMS,No error,True,Processing,True,4,Government
+SMS,SMS,Reused password,True,Initiation,True,3,Government
+SMS,Biometric,Clicked malicious link,True,Initiation,False,4,Healthcare
+SMS,SMS,Shared OTP/code,True,Initiation,True,3,Government
+Email,SMS,Reused password,True,Completion,True,2,Retail
+SMS,Authenticator App,No error,False,Initiation,True,5,Retail
+SMS,SMS,Shared OTP/code,True,Initiation,True,2,Government
+SMS,SMS,Shared OTP/code,True,Initiation,True,3,Healthcare
+SMS,SMS,Clicked malicious link,True,Processing,True,3,Banking
+SMS,SMS,No error,True,Processing,True,2,Government
+SMS,SMS,Clicked malicious link,False,Initiation,True,1,Government
+Email,SMS,No error,True,Processing,False,1,Banking
+SMS,Authenticator App,Shared OTP/code,False,Completion,False,1,Government
+SMS,SMS,Shared OTP/code,True,Initiation,True,3,Banking
+SMS,SMS,Shared OTP/code,True,Initiation,True,4,Healthcare
+SMS,Authenticator App,Clicked malicious link,False,Initiation,True,3,Retail
+SMS,SMS,Clicked malicious link,True,Processing,False,4,Healthcare
+SMS,Authenticator App,Clicked malicious link,True,Initiation,True,2,Retail
+SMS,SMS,Clicked malicious link,True,Processing,True,5,Banking
+Email,SMS,Reused password,True,Processing,True,4,Retail
+Email,SMS,Clicked malicious link,False,Initiation,True,1,Healthcare
+Email,SMS,Clicked malicious link,True,Completion,True,3,Retail
+SMS,SMS,No error,True,Initiation,True,2,Banking
+SMS,SMS,Reused password,True,Initiation,True,1,Retail
+SMS,SMS,No error,True,Processing,True,2,Government
+Social Media,SMS,No error,True,Processing,True,5,Healthcare
+Email,SMS,Clicked malicious link,True,Initiation,True,3,Government
+SMS,SMS,Clicked malicious link,True,Completion,True,3,Banking
+SMS,SMS,Reused password,False,Completion,True,5,Retail
+Email,SMS,Shared OTP/code,True,Initiation,True,3,Government
+Email,Authenticator App,Clicked malicious link,True,Completion,True,4,Government
+Email,SMS,Reused password,False,Initiation,False,2,Retail
+Email,Authenticator App,Clicked malicious link,True,Initiation,True,1,Retail
+Social Media,Authenticator App,Clicked malicious link,True,Initiation,True,5,Healthcare
+SMS,SMS,Shared OTP/code,True,Completion,True,4,Government
+SMS,Authenticator App,Shared OTP/code,True,Processing,True,1,Government
+SMS,Biometric,Shared OTP/code,True,Initiation,True,1,Banking
+SMS,SMS,Clicked malicious link,False,Initiation,True,5,Healthcare
+Email,SMS,Reused password,True,Processing,True,4,Banking
+SMS,Authenticator App,Clicked malicious link,True,Initiation,False,1,Government
+SMS,Authenticator App,Clicked malicious link,False,Completion,True,1,Banking
+SMS,SMS,Reused password,True,Processing,False,4,Government
+SMS,SMS,No error,True,Initiation,False,3,Government
+SMS,SMS,Reused password,True,Completion,True,1,Banking
+Email,SMS,Reused password,False,Initiation,False,2,Banking
+Email,Authenticator App,Shared OTP/code,True,Completion,True,4,Retail
+SMS,SMS,Shared OTP/code,True,Processing,False,1,Retail
+SMS,SMS,Clicked malicious link,True,Processing,True,5,Retail
+SMS,Authenticator App,Shared OTP/code,True,Initiation,True,2,Government
+Email,SMS,Clicked malicious link,True,Completion,True,1,Banking
+SMS,SMS,Clicked malicious link,True,Initiation,True,2,Healthcare
+SMS,Authenticator App,Reused password,False,Initiation,True,2,Government
+Email,Authenticator App,Shared OTP/code,True,Initiation,True,3,Healthcare
+Email,SMS,Clicked malicious link,True,Initiation,True,2,Banking
+SMS,SMS,Clicked malicious link,False,Initiation,True,3,Government
+Social Media,SMS,Shared OTP/code,False,Processing,True,4,Healthcare
+SMS,SMS,Clicked malicious link,True,Completion,True,3,Healthcare
+SMS,SMS,Reused password,True,Initiation,False,5,Retail
+SMS,SMS,Shared OTP/code,True,Processing,False,1,Retail
+SMS,SMS,Shared OTP/code,False,Initiation,False,4,Retail
+Social Media,SMS,Shared OTP/code,False,Completion,True,4,Government
+Social Media,SMS,Reused password,True,Processing,True,5,Banking
+Email,SMS,Clicked malicious link,False,Initiation,True,3,Banking
+SMS,SMS,Shared OTP/code,True,Processing,False,1,Retail
+SMS,SMS,Shared OTP/code,True,Initiation,True,3,Retail
+Email,SMS,Clicked malicious link,True,Initiation,True,2,Retail
+Email,Authenticator App,Reused password,False,Processing,True,3,Healthcare
+SMS,SMS,Reused password,True,Initiation,False,4,Retail
+SMS,Authenticator App,Shared OTP/code,False,Initiation,True,1,Healthcare
+Email,Authenticator App,Reused password,False,Initiation,True,3,Banking
+Email,SMS,Reused password,False,Processing,True,1,Government
+Social Media,SMS,Reused password,True,Initiation,True,1,Government
+Email,SMS,Reused password,True,Initiation,True,2,Government
+Email,SMS,Shared OTP/code,True,Processing,True,2,Government
+SMS,Authenticator App,Shared OTP/code,True,Processing,True,4,Healthcare
+Social Media,SMS,Shared OTP/code,True,Initiation,False,5,Healthcare
+Email,SMS,Reused password,False,Initiation,True,1,Retail
+SMS,SMS,Clicked malicious link,True,Initiation,False,5,Healthcare
+SMS,SMS,Reused password,True,Initiation,False,4,Retail
+Email,Authenticator App,Reused password,True,Initiation,True,1,Retail
+SMS,SMS,Clicked malicious link,True,Processing,True,1,Government
+SMS,SMS,Reused password,True,Processing,True,5,Healthcare
+SMS,Biometric,Clicked malicious link,True,Processing,False,3,Healthcare
+SMS,Authenticator App,Clicked malicious link,False,Initiation,True,2,Retail
+SMS,SMS,Reused password,True,Processing,True,3,Retail
+Email,SMS,Clicked malicious link,False,Initiation,True,5,Banking
+SMS,SMS,Reused password,False,Completion,True,2,Banking
+SMS,SMS,Reused password,True,Processing,True,3,Retail
+Email,SMS,Shared OTP/code,False,Initiation,True,2,Banking
+Email,SMS,Clicked malicious link,True,Processing,True,1,Banking
+SMS,SMS,Clicked malicious link,False,Initiation,True,3,Retail
+SMS,SMS,Shared OTP/code,True,Processing,True,2,Retail
+Email,Authenticator App,No error,False,Initiation,True,2,Healthcare
+SMS,SMS,Shared OTP/code,False,Initiation,True,2,Retail
+Email,SMS,Clicked malicious link,False,Completion,True,3,Retail
+SMS,SMS,Shared OTP/code,False,Initiation,False,4,Government
+Email,Biometric,Shared OTP/code,True,Processing,True,3,Healthcare
+SMS,SMS,Reused password,True,Initiation,True,5,Healthcare
+SMS,SMS,Clicked malicious link,True,Processing,True,3,Healthcare
+Social Media,Biometric,Reused password,True,Processing,True,2,Government
+Email,Authenticator App,Shared OTP/code,True,Initiation,True,1,Retail
+SMS,Authenticator App,No error,True,Initiation,True,3,Healthcare
+Email,SMS,Clicked malicious link,False,Initiation,False,3,Healthcare
+Social Media,SMS,Shared OTP/code,True,Initiation,True,2,Banking
+SMS,Authenticator App,No error,False,Initiation,True,1,Healthcare
+Email,Biometric,Clicked malicious link,True,Processing,True,1,Retail
+SMS,SMS,No error,False,Completion,True,5,Retail
+SMS,SMS,Shared OTP/code,False,Completion,True,3,Banking
+SMS,SMS,Clicked malicious link,True,Processing,True,1,Healthcare
+SMS,Authenticator App,Clicked malicious link,True,Processing,True,1,Healthcare
+Email,SMS,Reused password,False,Processing,True,4,Healthcare
+Email,SMS,Clicked malicious link,True,Initiation,True,4,Government
+SMS,SMS,Shared OTP/code,True,Completion,True,1,Healthcare
+Social Media,SMS,Clicked malicious link,True,Processing,True,5,Retail
+SMS,SMS,Shared OTP/code,True,Initiation,True,1,Retail
+SMS,SMS,Clicked malicious link,True,Initiation,False,2,Government
+SMS,Authenticator App,Reused password,True,Initiation,True,3,Government
+SMS,SMS,No error,True,Initiation,True,5,Healthcare
+SMS,SMS,No error,True,Completion,True,2,Banking
+SMS,SMS,Reused password,False,Initiation,False,5,Government
+SMS,SMS,Clicked malicious link,True,Initiation,False,2,Government
+SMS,SMS,Reused password,False,Completion,True,3,Healthcare
+Email,SMS,Clicked malicious link,True,Initiation,False,3,Healthcare
+Email,SMS,Clicked malicious link,True,Initiation,True,4,Government
+SMS,SMS,Clicked malicious link,True,Initiation,True,2,Banking
+SMS,SMS,Shared OTP/code,True,Processing,False,4,Government
+Email,Biometric,Reused password,True,Completion,False,2,Healthcare
+Email,SMS,Shared OTP/code,True,Initiation,True,4,Healthcare
+SMS,Authenticator App,Shared OTP/code,True,Completion,True,3,Government
+Email,SMS,Clicked malicious link,True,Initiation,True,5,Banking
+Email,Authenticator App,No error,True,Completion,True,4,Government
+SMS,Authenticator App,Shared OTP/code,True,Processing,False,2,Government
+SMS,SMS,Shared OTP/code,True,Processing,True,2,Healthcare
+SMS,SMS,Clicked malicious link,False,Initiation,True,3,Banking
+Email,SMS,Reused password,True,Completion,True,2,Retail
+SMS,SMS,Shared OTP/code,True,Processing,True,1,Banking
+Email,Biometric,Clicked malicious link,False,Initiation,True,5,Government
+SMS,Authenticator App,Clicked malicious link,True,Processing,True,4,Government
+SMS,Biometric,Shared OTP/code,True,Initiation,False,5,Government
+SMS,SMS,Shared OTP/code,False,Completion,False,3,Banking
+SMS,Authenticator App,Clicked malicious link,True,Initiation,True,4,Healthcare
+SMS,Biometric,No error,True,Processing,False,4,Government
+SMS,SMS,Clicked malicious link,True,Initiation,False,1,Government
+Email,SMS,Shared OTP/code,True,Initiation,False,3,Banking
+SMS,Authenticator App,No error,True,Initiation,True,2,Retail
+Email,SMS,Shared OTP/code,True,Initiation,True,1,Retail
+Email,Authenticator App,Shared OTP/code,True,Initiation,True,1,Healthcare
+Social Media,SMS,Clicked malicious link,True,Initiation,True,5,Healthcare
+SMS,Authenticator App,Clicked malicious link,False,Initiation,True,5,Government
+SMS,SMS,No error,False,Initiation,True,5,Banking
+SMS,SMS,Shared OTP/code,True,Initiation,True,1,Government
+SMS,SMS,Reused password,True,Processing,True,2,Healthcare
+SMS,Authenticator App,Clicked malicious link,True,Initiation,True,4,Banking
+SMS,Authenticator App,Clicked malicious link,True,Completion,True,5,Banking
+SMS,SMS,Clicked malicious link,True,Completion,False,2,Healthcare
+Email,SMS,Shared OTP/code,True,Processing,False,3,Retail
+SMS,Authenticator App,Clicked malicious link,False,Initiation,False,5,Retail
+Email,SMS,Reused password,True,Completion,False,4,Banking
+Email,Authenticator App,Shared OTP/code,True,Initiation,True,3,Government
+SMS,SMS,No error,True,Initiation,False,3,Retail
+Email,SMS,Clicked malicious link,True,Initiation,True,4,Government
+Social Media,SMS,Reused password,False,Processing,True,5,Retail
+Social Media,SMS,Reused password,False,Initiation,True,1,Retail
+Social Media,Authenticator App,Reused password,False,Initiation,True,4,Government
+SMS,SMS,Reused password,True,Completion,True,4,Healthcare
+Email,SMS,Reused password,True,Completion,True,4,Retail
+Social Media,Authenticator App,Shared OTP/code,True,Initiation,False,3,Retail
+SMS,SMS,Clicked malicious link,True,Initiation,True,2,Government
+Social Media,SMS,Clicked malicious link,True,Processing,True,1,Healthcare
+Social Media,Biometric,No error,False,Initiation,False,5,Retail
+SMS,Authenticator App,Shared OTP/code,True,Initiation,True,5,Retail
+Email,SMS,Reused password,True,Initiation,True,2,Healthcare
+SMS,Biometric,Shared OTP/code,True,Completion,True,4,Retail
+SMS,Authenticator App,Clicked malicious link,True,Processing,True,1,Healthcare
+SMS,SMS,Clicked malicious link,True,Processing,True,5,Healthcare
+Email,SMS,Shared OTP/code,False,Completion,False,5,Government
+SMS,Authenticator App,Shared OTP/code,False,Initiation,True,4,Banking
+Social Media,Authenticator App,Clicked malicious link,False,Initiation,True,2,Healthcare
+SMS,SMS,Shared OTP/code,True,Initiation,False,1,Government
+SMS,Authenticator App,Clicked malicious link,True,Initiation,True,2,Banking
+Email,Authenticator App,Shared OTP/code,True,Initiation,True,2,Retail
+SMS,SMS,Clicked malicious link,True,Processing,True,1,Banking
+Social Media,SMS,Reused password,False,Processing,True,1,Healthcare
+Email,SMS,Clicked malicious link,True,Completion,True,5,Healthcare
+SMS,Authenticator App,Shared OTP/code,True,Initiation,True,5,Healthcare
+SMS,SMS,Clicked malicious link,True,Processing,True,1,Healthcare
+SMS,SMS,Clicked malicious link,True,Processing,False,3,Healthcare
+SMS,Authenticator App,Clicked malicious link,False,Initiation,True,5,Government
+SMS,Authenticator App,Shared OTP/code,True,Processing,True,3,Healthcare
+SMS,SMS,Shared OTP/code,True,Initiation,True,1,Government
+Email,Authenticator App,Clicked malicious link,True,Initiation,True,5,Retail
+SMS,SMS,Shared OTP/code,True,Initiation,True,2,Healthcare
+SMS,Authenticator App,Reused password,False,Initiation,True,1,Healthcare
+SMS,SMS,Reused password,False,Initiation,False,4,Banking
+Social Media,SMS,Clicked malicious link,False,Processing,True,3,Retail
+SMS,Authenticator App,Shared OTP/code,False,Completion,True,1,Healthcare
+SMS,SMS,Clicked malicious link,True,Processing,True,1,Healthcare
+SMS,SMS,Clicked malicious link,True,Processing,True,5,Retail
+SMS,Authenticator App,No error,True,Initiation,True,5,Government
+SMS,Authenticator App,Clicked malicious link,True,Processing,True,5,Healthcare
+SMS,Authenticator App,Shared OTP/code,False,Initiation,True,4,Banking
+SMS,Authenticator App,Shared OTP/code,True,Initiation,True,5,Healthcare
+SMS,SMS,Reused password,False,Initiation,False,1,Banking
+SMS,SMS,Shared OTP/code,True,Initiation,False,5,Banking
+Email,SMS,Clicked malicious link,True,Initiation,False,2,Healthcare
+SMS,SMS,Clicked malicious link,True,Initiation,False,5,Healthcare
+Email,Biometric,Shared OTP/code,False,Initiation,True,4,Banking
+SMS,SMS,Clicked malicious link,True,Completion,False,2,Retail
+SMS,SMS,Clicked malicious link,True,Initiation,True,1,Retail
+Email,SMS,Clicked malicious link,True,Initiation,False,1,Healthcare
+SMS,Biometric,Clicked malicious link,True,Initiation,False,3,Government
+Email,SMS,Clicked malicious link,True,Processing,True,2,Retail
+Email,SMS,Clicked malicious link,False,Initiation,False,3,Healthcare
+SMS,SMS,Shared OTP/code,True,Initiation,True,2,Retail
+SMS,Authenticator App,Shared OTP/code,True,Initiation,True,2,Government
+Email,SMS,Reused password,True,Initiation,True,4,Healthcare
+SMS,Authenticator App,Clicked malicious link,True,Initiation,True,3,Government
+SMS,Biometric,Clicked malicious link,False,Initiation,True,4,Healthcare
+Email,SMS,Clicked malicious link,True,Initiation,True,2,Government
+SMS,Authenticator App,Shared OTP/code,True,Initiation,False,1,Retail
+Email,Biometric,Reused password,True,Initiation,True,2,Retail
+Email,Authenticator App,Clicked malicious link,False,Processing,False,4,Government
+SMS,SMS,No error,False,Initiation,False,3,Government
+SMS,SMS,Clicked malicious link,True,Initiation,False,3,Government
+SMS,Authenticator App,Shared OTP/code,True,Initiation,False,4,Healthcare
+SMS,SMS,Reused password,True,Completion,True,3,Retail
+Social Media,Authenticator App,Reused password,False,Initiation,False,5,Healthcare
+SMS,Biometric,Reused password,True,Initiation,False,1,Retail
+SMS,Biometric,Reused password,True,Processing,True,1,Banking
+SMS,SMS,Clicked malicious link,True,Initiation,True,1,Healthcare
+Email,SMS,Reused password,True,Initiation,True,3,Retail
+SMS,Biometric,Clicked malicious link,True,Initiation,True,3,Retail
+Email,Authenticator App,Reused password,False,Completion,True,2,Healthcare
+Email,SMS,Shared OTP/code,True,Initiation,True,2,Healthcare
+Social Media,Biometric,Reused password,True,Processing,True,1,Retail
+SMS,Authenticator App,Shared OTP/code,True,Completion,True,5,Healthcare
+SMS,SMS,Shared OTP/code,False,Initiation,False,2,Government
+SMS,SMS,Shared OTP/code,True,Initiation,True,2,Healthcare
+Email,SMS,Reused password,False,Initiation,True,3,Healthcare
+Email,SMS,Clicked malicious link,True,Initiation,True,5,Healthcare
+Email,SMS,Clicked malicious link,True,Initiation,True,1,Retail
+SMS,Authenticator App,Clicked malicious link,True,Completion,False,2,Government
+SMS,SMS,Clicked malicious link,True,Processing,True,5,Banking
+SMS,SMS,Reused password,True,Processing,True,5,Banking
+Email,SMS,Clicked malicious link,False,Initiation,True,1,Government
+Social Media,SMS,No error,True,Processing,True,5,Government
+SMS,Biometric,Clicked malicious link,True,Completion,False,5,Government
+SMS,SMS,Clicked malicious link,True,Processing,True,5,Retail
+SMS,SMS,Reused password,False,Initiation,True,2,Banking
+SMS,Authenticator App,Shared OTP/code,False,Processing,True,1,Government
+Email,SMS,Shared OTP/code,True,Initiation,True,5,Retail
+SMS,SMS,Shared OTP/code,False,Initiation,True,5,Banking
+SMS,SMS,Reused password,True,Initiation,True,2,Healthcare
+Email,SMS,Clicked malicious link,True,Processing,True,1,Retail
+Email,SMS,No error,False,Processing,True,3,Banking
+Email,SMS,No error,False,Initiation,True,2,Retail
+Email,SMS,Shared OTP/code,True,Initiation,False,1,Banking
+SMS,Biometric,Clicked malicious link,True,Initiation,False,5,Banking
+SMS,SMS,Shared OTP/code,True,Initiation,True,1,Healthcare
+SMS,SMS,Clicked malicious link,False,Initiation,False,1,Retail
+Email,Authenticator App,Clicked malicious link,True,Initiation,True,1,Government
+SMS,SMS,Clicked malicious link,True,Processing,True,3,Healthcare
+SMS,Authenticator App,Shared OTP/code,True,Initiation,False,1,Healthcare
+Email,SMS,Reused password,True,Initiation,False,3,Banking
+SMS,Biometric,Reused password,True,Initiation,False,5,Government
+SMS,SMS,Reused password,False,Completion,True,3,Retail
+SMS,SMS,Shared OTP/code,True,Processing,True,5,Government
+SMS,SMS,Clicked malicious link,True,Processing,False,5,Government
+Email,Biometric,Clicked malicious link,True,Initiation,True,3,Government
+SMS,SMS,No error,False,Initiation,True,2,Government
+SMS,SMS,Clicked malicious link,True,Initiation,True,4,Government
+SMS,SMS,Reused password,True,Processing,True,1,Banking
+SMS,Authenticator App,Shared OTP/code,False,Completion,True,4,Banking
+SMS,SMS,Shared OTP/code,False,Processing,True,1,Healthcare
+Email,Authenticator App,Reused password,False,Completion,False,1,Banking
+Email,SMS,Shared OTP/code,False,Processing,True,5,Healthcare
+SMS,SMS,Reused password,True,Initiation,True,1,Healthcare
+Email,SMS,No error,False,Completion,True,1,Retail
+SMS,SMS,Shared OTP/code,True,Initiation,True,3,Government
+Social Media,SMS,Clicked malicious link,False,Initiation,True,4,Banking
+SMS,SMS,Shared OTP/code,False,Initiation,True,3,Retail
+SMS,Authenticator App,No error,False,Initiation,False,1,Banking
+SMS,SMS,Clicked malicious link,True,Initiation,True,5,Healthcare
+SMS,SMS,Shared OTP/code,True,Initiation,False,3,Banking
+SMS,SMS,Shared OTP/code,True,Initiation,True,3,Government
+Social Media,SMS,Reused password,False,Initiation,True,2,Healthcare
+SMS,SMS,Clicked malicious link,False,Initiation,True,1,Healthcare
+Social Media,SMS,Reused password,True,Initiation,True,5,Retail
+Social Media,SMS,No error,True,Initiation,False,3,Government
+Email,Authenticator App,Clicked malicious link,True,Initiation,True,3,Healthcare
+Email,Biometric,Clicked malicious link,False,Processing,True,5,Government
+Email,SMS,No error,False,Processing,False,1,Banking
+Email,SMS,Clicked malicious link,True,Processing,False,2,Government
+Email,Authenticator App,Reused password,True,Processing,False,3,Healthcare
+SMS,SMS,Shared OTP/code,False,Initiation,True,2,Retail
+Email,SMS,Clicked malicious link,False,Processing,False,4,Healthcare
+SMS,SMS,Reused password,True,Initiation,True,1,Government
+SMS,Authenticator App,Shared OTP/code,True,Initiation,True,4,Government
+Email,Authenticator App,Shared OTP/code,True,Processing,True,4,Healthcare
+SMS,SMS,Clicked malicious link,True,Initiation,True,4,Government
+Email,SMS,Shared OTP/code,True,Processing,True,1,Banking
+Email,SMS,Clicked malicious link,True,Processing,True,1,Healthcare
+SMS,Authenticator App,Clicked malicious link,False,Completion,False,5,Retail
+SMS,SMS,No error,True,Completion,True,2,Healthcare
+SMS,SMS,Clicked malicious link,False,Initiation,True,2,Banking
+SMS,Authenticator App,Shared OTP/code,True,Initiation,True,5,Banking
+SMS,SMS,Clicked malicious link,True,Initiation,False,5,Banking
+Email,Authenticator App,Reused password,True,Initiation,True,4,Banking
+Email,SMS,Clicked malicious link,True,Processing,True,5,Banking
+SMS,SMS,No error,False,Processing,False,3,Retail
+SMS,SMS,Shared OTP/code,False,Processing,False,2,Government
+Social Media,Authenticator App,Clicked malicious link,True,Initiation,True,5,Banking
+SMS,Authenticator App,Clicked malicious link,True,Initiation,True,3,Banking
+SMS,Authenticator App,Clicked malicious link,False,Initiation,False,3,Healthcare
+SMS,SMS,Shared OTP/code,True,Initiation,True,3,Retail
+SMS,Authenticator App,Clicked malicious link,True,Completion,True,3,Retail
+Social Media,SMS,Reused password,False,Initiation,False,4,Government
+SMS,SMS,Shared OTP/code,True,Initiation,True,3,Retail
+SMS,Authenticator App,Clicked malicious link,True,Initiation,True,4,Healthcare
+SMS,SMS,Shared OTP/code,True,Processing,True,4,Healthcare
+SMS,SMS,Reused password,False,Processing,True,3,Government
+Email,SMS,Clicked malicious link,True,Initiation,True,2,Healthcare
+Social Media,SMS,Clicked malicious link,True,Initiation,False,3,Banking
+SMS,SMS,Clicked malicious link,False,Initiation,True,3,Banking
+SMS,SMS,Reused password,True,Initiation,True,3,Healthcare
+SMS,SMS,Shared OTP/code,False,Processing,True,2,Government
+SMS,Authenticator App,Shared OTP/code,True,Processing,True,1,Retail
+SMS,Authenticator App,Reused password,False,Initiation,False,1,Government
+Email,SMS,Reused password,True,Initiation,True,4,Retail
+Social Media,SMS,Shared OTP/code,True,Completion,True,4,Healthcare
+Email,SMS,Reused password,True,Initiation,True,2,Healthcare
+SMS,SMS,Clicked malicious link,True,Processing,True,5,Banking
+Social Media,SMS,Clicked malicious link,False,Initiation,True,1,Retail
+Social Media,Authenticator App,Clicked malicious link,False,Initiation,True,4,Government
+SMS,SMS,Clicked malicious link,True,Initiation,False,1,Healthcare
+SMS,SMS,Shared OTP/code,True,Initiation,True,2,Government
+SMS,SMS,No error,False,Completion,True,2,Banking
+Email,SMS,Clicked malicious link,False,Initiation,True,5,Retail
+SMS,Biometric,Clicked malicious link,True,Initiation,False,5,Retail
+SMS,Authenticator App,Shared OTP/code,True,Initiation,True,2,Healthcare
+SMS,SMS,No error,True,Initiation,True,4,Retail
+SMS,Authenticator App,Clicked malicious link,True,Initiation,True,1,Healthcare
+SMS,SMS,Shared OTP/code,True,Initiation,True,3,Banking
+Email,Authenticator App,Clicked malicious link,True,Processing,False,5,Retail
+SMS,Authenticator App,Clicked malicious link,True,Initiation,True,3,Healthcare
+Email,SMS,No error,False,Initiation,True,4,Government
+SMS,SMS,No error,True,Completion,False,5,Healthcare
+SMS,SMS,Clicked malicious link,True,Initiation,False,3,Retail
+SMS,SMS,No error,True,Completion,False,4,Banking
+SMS,Authenticator App,Shared OTP/code,True,Initiation,False,1,Retail
+Email,SMS,Reused password,True,Completion,True,4,Retail
+Email,SMS,Shared OTP/code,True,Processing,True,5,Healthcare
+SMS,Authenticator App,Shared OTP/code,True,Processing,True,2,Government
+SMS,Biometric,Shared OTP/code,True,Completion,True,1,Retail
+Email,SMS,Shared OTP/code,True,Initiation,True,3,Government
+Email,SMS,Clicked malicious link,True,Completion,True,5,Healthcare
+SMS,SMS,Clicked malicious link,False,Initiation,True,2,Government
+Email,SMS,Clicked malicious link,True,Initiation,False,4,Healthcare
+SMS,Biometric,Reused password,False,Initiation,True,2,Banking
+SMS,SMS,Clicked malicious link,True,Initiation,False,5,Government
+Email,SMS,Shared OTP/code,True,Initiation,True,5,Government
+Email,SMS,No error,True,Initiation,True,2,Banking
+Social Media,SMS,Clicked malicious link,True,Initiation,True,4,Government
+SMS,Authenticator App,Shared OTP/code,False,Processing,True,2,Banking
+SMS,Authenticator App,Shared OTP/code,False,Processing,True,5,Retail
+SMS,SMS,Reused password,False,Initiation,False,5,Healthcare
+Social Media,SMS,Clicked malicious link,True,Initiation,True,3,Banking
+Social Media,SMS,Shared OTP/code,True,Initiation,True,3,Government
+SMS,Biometric,Reused password,True,Initiation,True,1,Banking
+SMS,Authenticator App,No error,True,Initiation,True,5,Government
+Email,SMS,Shared OTP/code,True,Initiation,False,3,Retail
+SMS,Authenticator App,Shared OTP/code,True,Initiation,False,2,Banking
+SMS,Authenticator App,Shared OTP/code,True,Completion,True,4,Retail
+SMS,SMS,Reused password,True,Initiation,True,2,Healthcare
+Social Media,Biometric,Shared OTP/code,False,Initiation,True,4,Government
+Email,SMS,Clicked malicious link,False,Initiation,False,3,Government
+SMS,SMS,No error,False,Initiation,True,1,Retail
+Email,SMS,Shared OTP/code,True,Initiation,True,2,Healthcare
+SMS,SMS,Shared OTP/code,True,Processing,False,2,Banking
+Email,SMS,Clicked malicious link,True,Initiation,True,2,Banking
+Email,Authenticator App,Shared OTP/code,False,Initiation,False,4,Government
+Email,SMS,Clicked malicious link,True,Completion,True,3,Retail
+SMS,Authenticator App,Shared OTP/code,True,Completion,True,2,Retail
+SMS,SMS,Clicked malicious link,False,Processing,True,2,Banking
+SMS,SMS,Shared OTP/code,True,Initiation,False,1,Healthcare
+Social Media,SMS,No error,True,Processing,False,1,Healthcare
+SMS,SMS,Clicked malicious link,True,Initiation,True,3,Banking
+Email,Authenticator App,No error,True,Initiation,True,3,Banking
+SMS,SMS,Shared OTP/code,True,Initiation,True,5,Retail
+Email,SMS,Reused password,True,Initiation,False,1,Healthcare
+Social Media,SMS,Reused password,True,Initiation,True,5,Banking
+Email,Authenticator App,Shared OTP/code,True,Initiation,True,4,Banking
+Social Media,Biometric,Reused password,False,Completion,True,5,Government
+Email,Authenticator App,Reused password,True,Completion,False,2,Banking
+SMS,SMS,Shared OTP/code,True,Processing,True,5,Banking
+SMS,SMS,Clicked malicious link,True,Initiation,True,3,Healthcare
+Social Media,SMS,Shared OTP/code,False,Completion,True,4,Retail
+Email,SMS,Reused password,True,Initiation,False,2,Healthcare
+SMS,SMS,Reused password,True,Processing,True,5,Retail
+Social Media,SMS,Reused password,False,Initiation,True,4,Government
+SMS,SMS,Shared OTP/code,False,Processing,False,4,Banking
+SMS,SMS,Reused password,True,Initiation,True,2,Government
+SMS,Authenticator App,Clicked malicious link,False,Completion,True,5,Retail
+SMS,SMS,Shared OTP/code,True,Completion,True,4,Healthcare
+SMS,SMS,Clicked malicious link,True,Initiation,False,4,Healthcare
+SMS,Authenticator App,Clicked malicious link,True,Initiation,True,1,Government
+Social Media,SMS,Clicked malicious link,True,Completion,False,4,Retail
+Email,Authenticator App,Clicked malicious link,False,Initiation,True,1,Government
+Email,SMS,Shared OTP/code,True,Completion,True,5,Government
+Social Media,SMS,Clicked malicious link,True,Initiation,True,5,Banking
+SMS,Authenticator App,Shared OTP/code,False,Initiation,False,5,Government
+SMS,Authenticator App,Clicked malicious link,False,Initiation,True,3,Banking
+SMS,Authenticator App,Clicked malicious link,True,Initiation,False,5,Banking
+Email,SMS,Clicked malicious link,True,Processing,True,4,Healthcare
+Email,SMS,Clicked malicious link,True,Initiation,True,2,Banking
+SMS,SMS,Shared OTP/code,False,Initiation,True,1,Banking
+SMS,SMS,Shared OTP/code,True,Initiation,False,3,Healthcare
+SMS,Biometric,Shared OTP/code,False,Initiation,True,5,Government
+Email,SMS,Shared OTP/code,True,Completion,True,5,Retail
+Social Media,Biometric,Clicked malicious link,True,Completion,True,2,Retail
+Social Media,SMS,Reused password,True,Initiation,False,2,Retail

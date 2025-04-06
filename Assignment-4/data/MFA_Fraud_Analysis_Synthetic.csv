@@ -1,0 +1,301 @@
+mfa_type,attack_type,user_error,fraud_occurred,transaction_successful
+Authenticator App,Phishing,Clicked malicious link,True,True
+Authenticator App,Social Engineering,Gave code,True,True
+SMS,Phishing,Clicked malicious link,False,False
+SMS,SIM Swap,Shared OTP,True,True
+Authenticator App,Social Engineering,Gave code,True,True
+Authenticator App,Phishing,Used weak password,True,True
+SMS,Phishing,Shared OTP,False,False
+Biometric,Social Engineering,Gave code,True,False
+Authenticator App,SIM Swap,None,False,False
+Biometric,SIM Swap,None,False,False
+Biometric,SIM Swap,None,False,False
+Biometric,Phishing,Clicked malicious link,False,False
+SMS,Phishing,Clicked malicious link,True,True
+Authenticator App,Phishing,Clicked malicious link,True,False
+Authenticator App,SIM Swap,None,False,False
+SMS,Social Engineering,Gave code,True,True
+None,SIM Swap,None,True,True
+Authenticator App,Social Engineering,None,False,False
+SMS,Phishing,Clicked malicious link,True,True
+None,Social Engineering,None,True,True
+Authenticator App,Phishing,Shared OTP,False,False
+SMS,Phishing,Clicked malicious link,False,False
+Authenticator App,Social Engineering,Gave code,True,True
+None,SIM Swap,None,True,True
+SMS,Phishing,Shared OTP,False,False
+Authenticator App,Phishing,Used weak password,True,True
+None,Social Engineering,None,True,True
+Biometric,SIM Swap,None,False,False
+Authenticator App,Phishing,Clicked malicious link,False,False
+Authenticator App,Phishing,Used weak password,False,False
+SMS,SIM Swap,Shared OTP,True,False
+Biometric,Phishing,Shared OTP,False,False
+SMS,Social Engineering,Gave code,True,True
+Authenticator App,Phishing,Clicked malicious link,True,False
+Biometric,Social Engineering,Gave code,True,True
+Biometric,Credential Stuffing,Reused breached credentials,True,True
+SMS,Social Engineering,None,False,False
+SMS,Phishing,Clicked malicious link,False,False
+Biometric,Phishing,Shared OTP,False,False
+Biometric,Phishing,Used weak password,False,False
+Authenticator App,Phishing,Clicked malicious link,False,False
+SMS,Phishing,Clicked malicious link,False,False
+SMS,Phishing,Clicked malicious link,False,False
+None,Social Engineering,None,True,True
+SMS,SIM Swap,Shared OTP,True,True
+None,SIM Swap,None,True,True
+Biometric,Social Engineering,Gave code,True,True
+Authenticator App,Phishing,Shared OTP,True,True
+None,Phishing,None,True,True
+SMS,Social Engineering,Gave code,True,True
+Authenticator App,Phishing,Clicked malicious link,True,False
+Authenticator App,Social Engineering,Gave code,True,True
+None,Social Engineering,None,True,False
+None,Social Engineering,None,True,True
+Authenticator App,Phishing,Clicked malicious link,True,True
+None,Phishing,None,True,True
+Authenticator App,Phishing,Used weak password,False,False
+Authenticator App,Social Engineering,Gave code,True,True
+None,SIM Swap,None,True,True
+Biometric,Phishing,Shared OTP,False,False
+Biometric,Phishing,Clicked malicious link,False,False
+SMS,SIM Swap,Shared OTP,True,True
+SMS,Social Engineering,Gave code,True,True
+Authenticator App,Phishing,Shared OTP,False,False
+None,Phishing,None,True,True
+SMS,Phishing,Clicked malicious link,False,False
+SMS,Social Engineering,Gave code,True,True
+None,Credential Stuffing,None,True,True
+SMS,Phishing,Used weak password,False,False
+Biometric,Phishing,Used weak password,True,True
+Authenticator App,Credential Stuffing,Reused breached credentials,False,False
+SMS,Social Engineering,Gave code,True,True
+None,Phishing,None,True,True
+SMS,SIM Swap,Shared OTP,True,True
+Biometric,Phishing,Clicked malicious link,False,False
+Authenticator App,Credential Stuffing,Reused breached credentials,False,False
+SMS,Phishing,Clicked malicious link,True,True
+Authenticator App,Phishing,Shared OTP,False,False
+Authenticator App,Phishing,Used weak password,True,False
+Authenticator App,Social Engineering,Gave code,True,True
+SMS,Phishing,Shared OTP,False,False
+Biometric,Social Engineering,Gave code,True,True
+SMS,Social Engineering,None,False,False
+Authenticator App,SIM Swap,None,False,False
+SMS,Credential Stuffing,Reused breached credentials,False,False
+None,Social Engineering,None,True,True
+SMS,Social Engineering,Gave code,True,False
+Biometric,Social Engineering,None,False,False
+SMS,Social Engineering,Gave code,True,True
+Biometric,Phishing,Shared OTP,False,False
+SMS,Social Engineering,Gave code,True,True
+SMS,Phishing,Used weak password,False,False
+SMS,SIM Swap,Shared OTP,True,False
+Authenticator App,Credential Stuffing,Reused breached credentials,True,False
+SMS,Credential Stuffing,Reused breached credentials,True,True
+Authenticator App,Social Engineering,Gave code,True,True
+Authenticator App,Phishing,Clicked malicious link,False,False
+Biometric,Phishing,Shared OTP,False,False
+Biometric,Social Engineering,None,False,False
+Authenticator App,Phishing,Clicked malicious link,False,False
+SMS,Social Engineering,None,False,False
+SMS,Phishing,Shared OTP,True,True
+SMS,Phishing,Shared OTP,False,False
+None,SIM Swap,None,True,True
+Authenticator App,Phishing,Shared OTP,True,True
+Authenticator App,Phishing,Clicked malicious link,True,True
+None,Social Engineering,None,True,True
+SMS,SIM Swap,Shared OTP,True,True
+Biometric,Social Engineering,None,False,False
+SMS,Phishing,Clicked malicious link,True,True
+Biometric,Phishing,Shared OTP,False,False
+SMS,SIM Swap,Shared OTP,True,True
+Authenticator App,Phishing,Shared OTP,False,False
+SMS,Phishing,Used weak password,True,True
+SMS,Phishing,Shared OTP,False,False
+Biometric,SIM Swap,None,False,False
+None,SIM Swap,None,True,False
+Biometric,SIM Swap,None,False,False
+Biometric,SIM Swap,None,False,False
+Biometric,SIM Swap,None,False,False
+Biometric,Social Engineering,Gave code,True,True
+SMS,SIM Swap,None,False,False
+Authenticator App,SIM Swap,None,False,False
+SMS,Phishing,Clicked malicious link,True,True
+Authenticator App,Phishing,Shared OTP,True,True
+SMS,Phishing,Shared OTP,False,False
+SMS,Phishing,Shared OTP,False,False
+Authenticator App,Social Engineering,None,False,False
+Authenticator App,Phishing,Shared OTP,True,True
+None,Phishing,None,True,True
+Authenticator App,SIM Swap,None,False,False
+SMS,Phishing,Clicked malicious link,True,True
+Authenticator App,Phishing,Shared OTP,True,True
+Authenticator App,Phishing,Shared OTP,True,True
+Authenticator App,Phishing,Clicked malicious link,True,True
+SMS,Phishing,Clicked malicious link,False,False
+Biometric,Social Engineering,Gave code,True,True
+SMS,SIM Swap,None,False,False
+SMS,SIM Swap,None,False,False
+Authenticator App,Social Engineering,None,False,False
+SMS,Phishing,Clicked malicious link,True,True
+Authenticator App,Phishing,Shared OTP,False,False
+SMS,SIM Swap,None,False,False
+SMS,Social Engineering,None,False,False
+SMS,Phishing,Shared OTP,True,False
+Authenticator App,Social Engineering,Gave code,True,True
+Authenticator App,Phishing,Used weak password,False,False
+Authenticator App,Phishing,Shared OTP,False,False
+SMS,Phishing,Shared OTP,True,True
+Biometric,Social Engineering,Gave code,True,False
+Authenticator App,Social Engineering,None,False,False
+Authenticator App,Social Engineering,None,False,False
+SMS,Social Engineering,Gave code,True,True
+Authenticator App,Social Engineering,Gave code,True,True
+Biometric,Phishing,Clicked malicious link,False,False
+Authenticator App,SIM Swap,None,False,False
+Authenticator App,Phishing,Clicked malicious link,False,False
+SMS,Social Engineering,Gave code,True,True
+Biometric,Phishing,Used weak password,True,True
+Biometric,Phishing,Shared OTP,False,False
+Authenticator App,Phishing,Clicked malicious link,False,False
+SMS,SIM Swap,Shared OTP,True,True
+Authenticator App,SIM Swap,None,False,False
+Authenticator App,Social Engineering,Gave code,True,True
+SMS,Phishing,Clicked malicious link,True,True
+Authenticator App,Social Engineering,Gave code,True,True
+Authenticator App,Social Engineering,None,False,False
+Authenticator App,Phishing,Clicked malicious link,True,True
+SMS,Phishing,Clicked malicious link,False,False
+None,SIM Swap,None,True,True
+SMS,Social Engineering,Gave code,True,True
+Authenticator App,Phishing,Clicked malicious link,True,True
+None,Phishing,None,True,True
+Authenticator App,Phishing,Clicked malicious link,False,False
+SMS,SIM Swap,Shared OTP,True,False
+SMS,Social Engineering,None,False,False
+Biometric,Phishing,Shared OTP,False,False
+Authenticator App,Social Engineering,None,False,False
+SMS,SIM Swap,Shared OTP,True,True
+None,Phishing,None,True,True
+Authenticator App,Phishing,Clicked malicious link,True,True
+Authenticator App,SIM Swap,None,False,False
+SMS,Phishing,Shared OTP,False,False
+Authenticator App,SIM Swap,None,False,False
+None,Social Engineering,None,True,True
+Authenticator App,Credential Stuffing,Reused breached credentials,False,False
+Authenticator App,SIM Swap,None,False,False
+None,Social Engineering,None,True,True
+SMS,Phishing,Shared OTP,False,False
+SMS,Phishing,Shared OTP,False,False
+None,SIM Swap,None,True,True
+SMS,Phishing,Clicked malicious link,True,True
+SMS,Credential Stuffing,Reused breached credentials,False,False
+Authenticator App,Credential Stuffing,Reused breached credentials,False,False
+Authenticator App,Phishing,Shared OTP,True,True
+Authenticator App,Credential Stuffing,Reused breached credentials,True,True
+Authenticator App,Phishing,Clicked malicious link,True,True
+Authenticator App,Social Engineering,Gave code,True,True
+SMS,Credential Stuffing,Reused breached credentials,False,False
+Authenticator App,Phishing,Clicked malicious link,True,False
+Authenticator App,SIM Swap,None,False,False
+None,SIM Swap,None,True,True
+Authenticator App,Phishing,Shared OTP,True,True
+Biometric,Phishing,Used weak password,False,False
+Authenticator App,SIM Swap,None,False,False
+SMS,Credential Stuffing,Reused breached credentials,False,False
+SMS,Phishing,Shared OTP,False,False
+SMS,Credential Stuffing,Reused breached credentials,False,False
+Authenticator App,Phishing,Shared OTP,False,False
+Biometric,SIM Swap,None,False,False
+SMS,Social Engineering,None,False,False
+SMS,SIM Swap,Shared OTP,True,False
+Authenticator App,Social Engineering,None,False,False
+SMS,Social Engineering,Gave code,True,False
+Authenticator App,Social Engineering,Gave code,True,True
+Authenticator App,Credential Stuffing,Reused breached credentials,False,False
+SMS,SIM Swap,Shared OTP,True,True
+Authenticator App,Phishing,Clicked malicious link,True,True
+Authenticator App,Phishing,Clicked malicious link,False,False
+Biometric,Social Engineering,None,False,False
+Authenticator App,SIM Swap,None,False,False
+Biometric,Credential Stuffing,Reused breached credentials,False,False
+SMS,SIM Swap,Shared OTP,True,True
+Biometric,Phishing,Shared OTP,False,False
+Biometric,Phishing,Clicked malicious link,False,False
+Authenticator App,Credential Stuffing,Reused breached credentials,True,True
+Authenticator App,Social Engineering,None,False,False
+Biometric,Phishing,Shared OTP,False,False
+Biometric,Social Engineering,Gave code,True,True
+Authenticator App,Credential Stuffing,Reused breached credentials,False,False
+Biometric,Phishing,Shared OTP,True,True
+Authenticator App,SIM Swap,None,False,False
+None,Phishing,None,True,True
+SMS,Phishing,Shared OTP,True,True
+Biometric,Phishing,Used weak password,True,True
+SMS,Credential Stuffing,Reused breached credentials,True,True
+SMS,Phishing,Used weak password,True,False
+Authenticator App,Phishing,Clicked malicious link,True,True
+Authenticator App,Phishing,Used weak password,True,True
+Authenticator App,Phishing,Shared OTP,True,True
+None,Phishing,None,True,False
+Authenticator App,Phishing,Shared OTP,False,False
+Biometric,Phishing,Shared OTP,False,False
+None,Phishing,None,True,True
+Authenticator App,Phishing,Shared OTP,False,False
+Authenticator App,Social Engineering,None,False,False
+Biometric,SIM Swap,None,False,False
+None,SIM Swap,None,True,True
+Authenticator App,SIM Swap,None,False,False
+Biometric,Phishing,Shared OTP,False,False
+SMS,Phishing,Used weak password,False,False
+Authenticator App,Credential Stuffing,Reused breached credentials,False,False
+SMS,Social Engineering,Gave code,True,True
+Biometric,Phishing,Used weak password,True,True
+None,Social Engineering,None,True,True
+None,Credential Stuffing,None,True,True
+Authenticator App,Social Engineering,Gave code,True,True
+Authenticator App,SIM Swap,None,False,False
+Authenticator App,SIM Swap,None,False,False
+Biometric,Credential Stuffing,Reused breached credentials,True,True
+SMS,Social Engineering,Gave code,True,False
+SMS,Phishing,Used weak password,False,False
+SMS,Phishing,Used weak password,True,True
+Authenticator App,Phishing,Clicked malicious link,False,False
+Authenticator App,SIM Swap,None,False,False
+Biometric,Credential Stuffing,Reused breached credentials,False,False
+Biometric,Phishing,Clicked malicious link,False,False
+Authenticator App,Phishing,Clicked malicious link,False,False
+Authenticator App,Phishing,Used weak password,False,False
+SMS,SIM Swap,Shared OTP,True,False
+Authenticator App,Phishing,Clicked malicious link,True,True
+Authenticator App,SIM Swap,None,False,False
+Authenticator App,SIM Swap,None,False,False
+SMS,Social Engineering,Gave code,True,True
+Authenticator App,Phishing,Clicked malicious link,False,False
+SMS,Social Engineering,Gave code,True,True
+None,Phishing,None,True,True
+SMS,Phishing,Clicked malicious link,True,True
+SMS,Phishing,Clicked malicious link,False,False
+SMS,Phishing,Shared OTP,True,True
+Biometric,Phishing,Shared OTP,False,False
+SMS,SIM Swap,None,False,False
+SMS,Social Engineering,None,False,False
+Authenticator App,Phishing,Clicked malicious link,False,False
+Authenticator App,Phishing,Shared OTP,False,False
+None,Phishing,None,True,True
+Authenticator App,Phishing,Shared OTP,True,True
+SMS,Credential Stuffing,Reused breached credentials,False,False
+Authenticator App,SIM Swap,None,False,False
+SMS,Social Engineering,None,False,False
+Authenticator App,Social Engineering,None,False,False
+SMS,Phishing,Clicked malicious link,True,True
+Authenticator App,Phishing,Shared OTP,True,True
+SMS,Credential Stuffing,Reused breached credentials,True,True
+SMS,Phishing,Used weak password,False,False
+Authenticator App,SIM Swap,None,False,False
+Authenticator App,Phishing,Clicked malicious link,True,True
+Biometric,Social Engineering,None,False,False
+None,SIM Swap,None,True,True
+Authenticator App,Phishing,Clicked malicious link,False,False
