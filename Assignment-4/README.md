@@ -13,25 +13,27 @@ pip install pandas numpy matplotlib seaborn scipy jupyter
 ### **3️⃣ Run Jupyter Notebook**
 jupyter notebook  
 
-## 📂 **Repository Contents**
 The repository includes:
 
-- 📘 `EDA&Hypothesis_Testing.ipynb`:  
-  Primary notebook performing exploratory data analysis and hypothesis testing on Ontario's synthetic fraud dataset.
+📘 Synthetic_Fraud_Hypothesis_Test_Analysis.ipynb:
+Primary notebook performing hypothesis testing and pattern analysis on Ontario’s synthetic fraud dataset.
 
-- 📘 `Fortune500_Fraud_Analysis.ipynb`:  
-  Supplementary analysis notebook exploring fraud mitigation patterns across synthetic Fortune 500 company data.
+📘 Phishing_EDA_Notebook.ipynb:
+Exploratory analysis notebook focused on phishing methods, attack vectors, and MFA effectiveness.
 
-- 📁 `data/`:  
-  ├─ `synthetic_fraud_ontario.csv`  
-  └─ `Fortune500_Fraud_Analysis_Data.csv`
+📘 MFA_Fraud_Analysis.ipynb:
+Analysis of fraud incidents linked to Multi-Factor Authentication patterns and anomalies.
 
-- 📄 `README.md`:  
-  This setup guide and project overview.
+📘 Fortune500_Fraud_Analysis.ipynb:
+Simulation-based analysis of fraud detection strategies used by Fortune 500 organizations.
 
-## 📊 **Analysis Features**
-- Fraud type distribution and EDA visualizations  
-- Chi-Square hypothesis testing on fraud preventability  
-- Cross-comparison of fraud detection systems  
-- Support for TBP methodology (problem tree, root cause, options matrix)
+📁 data/:
+├─ Synthetic_Fraud_Dataset.csv
+├─ synthetic_phishing_mfa_dataset.csv
+├─ MFA_Fraud_Analysis_Synthetic.csv
+└─ Fortune500_Fraud_Analysis_Updated.csv
+
+📄 README.md:
+This setup guide and project overview.
+
 
